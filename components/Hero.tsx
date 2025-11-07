@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left mt-10 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary">
-            Hi, I'm <span className="text-accent">Your Name</span>
+            Hi, I'm <span className="text-accent"> Ashik Rahman</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-text-primary mt-2 mb-4">
             Creative Designer & Developer
