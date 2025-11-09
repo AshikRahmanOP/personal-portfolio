@@ -15,10 +15,10 @@ const Hero: React.FC = () => {
             Hi, I'm <span className="text-accent"> Ashik Rahman</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-text-primary mt-2 mb-4">
-            Full time gamer
+            Creative Web Developer & Designer
           </h2>
           <p className="text-text-secondary max-w-lg mx-auto md:mx-0 mb-8">
-            I'm a passifdfsfdsffsdfdsfsdfdfonate developer with expertise in creating modern and responsive web applications. I love turning ideas into reality through code.
+            I'm a passionate developer with expertise in creating modern and responsive web applications. I love turning ideas into reality through code.
           </p>
 
           <div className="flex justify-center md:justify-start space-x-4 mb-8">

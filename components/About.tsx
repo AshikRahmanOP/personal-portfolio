@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const PROFILE_IMAGE_URL = 'https://i.postimg.cc/QdG9TjC2/user-profile.png';
+const PROFILE_IMAGE_URL = 'https://i.postimg.cc/7hTrTY9Z/portfolio-2nd-picture-2.png';
 
 const About: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About <span className="text-accent">Me</span></h2>
         <div className="flex flex-col md:flex-row items-center gap-10 lg:gap-20">
           <div className="md:w-1/3 flex justify-center">
-            <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full bg-primary overflow-hidden border-4 border-accent shadow-lg shadow-accent/20 relative">
+            <div className="w-96 h-96 sm:w-96 sm:h-96 rounded-full bg-primary overflow-hidden border-4 border-accent shadow-lg shadow-accent/20 relative">
               <img
                 src={PROFILE_IMAGE_URL}
                 alt="About Me"

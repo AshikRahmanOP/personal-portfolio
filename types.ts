@@ -17,6 +17,14 @@ export interface Skill {
   icon: React.ReactElement;
 }
 
+export interface Certificate {
+  id: number;
+  title: string;
+  issuer: string;
+  date: string;
+  image: string;
+}
+
 export interface Project {
   title: string;
   description: string;
