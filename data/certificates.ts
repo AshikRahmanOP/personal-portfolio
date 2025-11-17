@@ -21,5 +21,13 @@ export const certificates: Certificate[] = [
     issuer: "Udacity",
     date: "November 2025",
     image: "https://i.postimg.cc/yd885f36/Screenshot-2025-11-08-212637.png"
+  },
+  {
+    id: 4,
+    title: "Higher school cartificate",
+    issuer: "Rajshahi Board",
+    date: "November 2025",
+    image: "https://i.postimg.cc/Y2RG3yFV/HSC.jpg"
   }
 ];
+

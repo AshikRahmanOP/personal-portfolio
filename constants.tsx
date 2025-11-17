@@ -38,80 +38,115 @@ export const SKILLS: Skill[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: 'E-commerce Website',
-    description: 'A full-featured e-commerce platform with product listings, cart functionality, and a secure checkout process.',
-    longDescription: 'An advanced e-commerce platform built with the MERN stack, featuring a robust shopping cart, secure payment processing, and a comprehensive admin dashboard for product management.',
-    image: 'https://picsum.photos/seed/project1/400/300',
+    title: 'Saloon management system',
+    description: 'The main goal of this system is to help salon owners manage appointments, customers, and services in one place. It reduces manual work, prevents booking conflicts, and improves customer experience..',
+    longDescription: 'This system is designed to simplify and automate daily salon operations, making management faster, easier, and more efficient..',
+    image: 'https://i.postimg.cc/mZ39zgVM/saloon-man-picture.webp',
     tags: ['Web App', 'React', 'Node.js'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://youtu.be/ucglOapuaXo',
+    
     features: [
-      'User authentication and authorization',
-      'Product search and filtering',
-      'Shopping cart management',
-      'Secure payment integration',
-      'Order tracking system',
-      'Admin dashboard for inventory management'
+      'Online appointment booking and scheduling',
+      'Customer management with profiles and history',
+      'Service catalog with pricing and descriptions',
+      'Automated reminders and notifications',
+      'Staff management and performance tracking'
     ],
     technologies: [
-      'React',
-      'Node.js',
-      'Express',
-      'MongoDB',
-      'Redux',
-      'Stripe API',
-      'JWT Authentication'
+      'React for front-end development',
+      'Node.js and Express for back-end development',
+      'MongoDB for database management',
+      'JWT for authentication and security',
+      'CSS3 and HTML5 for responsive design'
+      
     ],
     challenges: [
-      'Implemented real-time inventory tracking to prevent overselling',
-      'Optimized database queries for faster product search',
-      'Built a secure payment processing system',
-      'Designed a scalable architecture for future growth'
+      'Integrating real-time notifications for appointment reminders',
+      'Ensuring data security and privacy for customer information',
+      'Designing a user-friendly interface for both staff and customers'
     ],
     screenshots: [
-      'https://picsum.photos/seed/ecom1/800/600',
-      'https://picsum.photos/seed/ecom2/800/600',
-      'https://picsum.photos/seed/ecom3/800/600'
+      
     ]
   },
   {
-    title: 'Portfolio Showcase',
-    description: 'A dynamic portfolio website to showcase personal projects and skills, featuring a modern design and smooth animations.',
-    image: 'https://picsum.photos/seed/project2/400/300',
-    tags: ['Web App', 'React'],
-    liveUrl: '#',
+    title: 'Computer graphics Project simulation',
+    description: 'This computer graphics project presents a real-time interactive simulation that visually demonstrates motion, animation, and graphical transformations using modern rendering techniques.',
+    image: 'https://i.postimg.cc/L540d0Nf/computer-graphics-project.webp',
+    tags: ['Computer Graphics', 'OpenGL'],
+    liveUrl: 'https://youtu.be/LDY1lhxkl6E',
     githubUrl: '#',
+
+    features: [
+      'Real-time rendering of 3D objects and environments',
+      'Interactive controls for manipulating objects and camera views',
+      'Implementation of lighting and shading techniques',
+      'Animation of objects to demonstrate motion and transformations',
+      'User interface for selecting different simulation scenarios'
+    ],
+    technologies: [
+      'OpenGL for graphics rendering',
+      'C++ for performance-intensive computations',
+      'GLUT for windowing and user input handling',
+      'Shaders for advanced visual effects'
+    ],
+    challenges: [
+      'Optimizing rendering performance for real-time interaction',
+      'Implementing complex graphical transformations and animations',
+      'Designing an intuitive user interface for simulation control'  
+    ],
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application that helps teams organize their work, track progress, and meet deadlines.',
-    image: 'https://picsum.photos/seed/project3/400/300',
-    tags: ['Web App', 'React', 'Node.js'],
-    liveUrl: '#',
+    title: 'Ripeness identification of fruits',
+    description: 'Electronically measure how light is reflected from different color surfaces, and build a circuit that can differentiate between red and green produce',
+    image: 'https://i.postimg.cc/5yR0LTry/ripe-picture.avif',
+    tags: ['Electronics', 'Arduino'],
+    liveUrl: 'https://youtu.be/2JobmF9sK-8',
     githubUrl: '#',
+    features: [
+      'Color detection using light reflection',
+      'Circuit design for interfacing sensors with microcontroller',
+      'Real-time feedback on fruit ripeness',
+      'User-friendly interface for easy operation',
+      'Data logging for analysis of ripeness patterns'
+    ],
+    technologies: [
+      'Arduino microcontroller for processing sensor data',
+      'Color sensors for detecting light reflection',
+      'C/C++ programming for microcontroller logic',
+      'Breadboard and electronic components for circuit assembly'
+    ],
+    challenges: [
+      'Calibrating sensors for accurate color detection',
+      'Designing a reliable circuit for consistent performance',
+      'Developing an intuitive user interface for non-technical users'
+    ],  
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A weather dashboard that provides real-time weather information for any location, using a third-party weather API.',
-    image: 'https://picsum.photos/seed/project4/400/300',
-    tags: ['Web App', 'JavaScript'],
-    liveUrl: '#',
+    title: 'Balancing a surface using Arduino',
+    description: 'A project that involves creating a system to balance a surface using sensors and actuators controlled by an Arduino microcontroller.',
+    image: 'https://i.postimg.cc/28p8RsWk/balancing-eee-project.png',
+    tags: ['Electronics', 'Arduino'],
+    liveUrl: 'https://youtu.be/jSx3Djy0lSw',
     githubUrl: '#',
+    features: [
+      'Real-time surface balancing using sensor feedback',
+      'Actuator control for adjusting surface position',
+      'User interface for monitoring and controlling the system',
+      'Data logging for performance analysis',
+      'Safety mechanisms to prevent overcorrection'
+    ],
+    technologies: [
+      'Arduino microcontroller for processing sensor data',
+      'Gyroscopic sensors for detecting surface tilt',
+      'Servo motors for adjusting surface position',
+      'C/C++ programming for microcontroller logic'
+    ],
+    challenges: [
+      'Tuning the control algorithm for stable balancing',
+      'Integrating sensors and actuators effectively',
+      'Ensuring system responsiveness to rapid changes in surface tilt'
+    ],  
   },
-    {
-    title: 'Mobile Banking App Concept',
-    description: 'A UI/UX design concept for a mobile banking application, focusing on user-friendly navigation and a clean interface. Designed in Figma.',
-    image: 'https://picsum.photos/seed/project5/400/300',
-    tags: ['UI/UX Design'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-    {
-    title: 'Recipe Finder',
-    description: 'An application that allows users to search for recipes based on ingredients they have on hand.',
-    image: 'https://picsum.photos/seed/project6/400/300',
-    tags: ['Web App', 'JavaScript'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
+    
 ];

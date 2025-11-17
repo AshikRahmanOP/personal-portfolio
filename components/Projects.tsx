@@ -18,11 +18,11 @@ const ProjectCard: React.FC<{ project: Project; onClick: () => void }> = ({ proj
               <button onClick={(e) => {
                 e.stopPropagation();
                 window.open(project.liveUrl, '_blank');
-              }} className="text-accent hover:underline">Live Demo</button>
-              <button onClick={(e) => {
-                e.stopPropagation();
-                window.open(project.githubUrl, '_blank');
-              }} className="text-accent hover:underline">GitHub</button>
+              }} 
+              className="px-4 py-2 bg-accent text-primary rounded-lg hover:bg-accent/80 transition-colors"
+              >
+                Live Demo
+              </button>
             </div>
         </div>
       </div>
@@ -113,14 +113,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
                 >
                   View Live Demo
                 </a>
-                <a 
-                  href={project.githubUrl} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="px-6 py-2 bg-primary text-text-primary rounded-lg hover:bg-primary/80 transition-colors"
-                >
-                  View Source Code
-                </a>
+                
               </div>
             </div>
           </div>
